@@ -76,7 +76,9 @@ terraform apply
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_google"></a> [google](#provider\_google) | 4.20.0 |
 
 ## Modules
 
@@ -84,7 +86,9 @@ No modules.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [google_service_account.service_account_ec2_web](https://registry.terraform.io/providers/hashicorp/google/4.20.0/docs/resources/service_account) | resource |
 
 ## Inputs
 
@@ -92,6 +96,9 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project ID | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | GCP Region | `string` | n/a | yes |
+| <a name="input_service_account_account_id"></a> [service\_account\_account\_id](#input\_service\_account\_account\_id) | EC2 Webserver 용 service account ID | `string` | n/a | yes |
+| <a name="input_service_account_description"></a> [service\_account\_description](#input\_service\_account\_description) | EC2 Webserver 용 description | `string` | n/a | yes |
+| <a name="input_service_account_display_name"></a> [service\_account\_display\_name](#input\_service\_account\_display\_name) | EC2 Webserver 용 display name | `string` | n/a | yes |
 
 ## Outputs
 
