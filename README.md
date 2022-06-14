@@ -66,4 +66,34 @@ terraform apply
 - [Terraform Backend Type: GCS](https://www.terraform.io/language/settings/backends/gcs)
 
 ## 제작자
-[ldy9037@naver.com]()
+[ldy9037@naver.com]()<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.1.7 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | 4.20.0 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project ID | `string` | n/a | yes |
+| <a name="input_region"></a> [region](#input\_region) | GCP Region | `string` | n/a | yes |
+
+## Outputs
+
+No outputs.
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
