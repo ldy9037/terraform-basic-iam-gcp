@@ -10,5 +10,5 @@ variable "project_id" {
 
 variable "service_account" {
   description = "Service Account 목록"
-  type        = list(any)
+  type        = map(any)
 }

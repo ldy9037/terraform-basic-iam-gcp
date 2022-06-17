@@ -16,11 +16,11 @@ provider "google" {
 }
 
 resource "google_service_account" "service_account_ec2_web" {
-  count = length(var.service_account)
+  for_each = var.service_account
 
-  account_id   = var.service_account[count.index].account_id
-  display_name = var.service_account[count.index].display_name
-  description  = var.service_account[count.index].description
+  account_id   = each.key
+  display_name = each.value.display_name
+  description  = each.value.description
 
   project = var.project_id
 }

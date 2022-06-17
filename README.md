@@ -96,7 +96,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project ID | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | GCP Region | `string` | n/a | yes |
-| <a name="input_service_account"></a> [service\_account](#input\_service\_account) | Service Account 목록 | `list(any)` | n/a | yes |
+| <a name="input_service_account"></a> [service\_account](#input\_service\_account) | Service Account 목록 | `map(any)` | n/a | yes |
 
 ## Outputs
 
