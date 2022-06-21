@@ -88,7 +88,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [google_service_account.service_account_ec2_web](https://registry.terraform.io/providers/hashicorp/google/4.20.0/docs/resources/service_account) | resource |
+| [google_service_account.service_account_app](https://registry.terraform.io/providers/hashicorp/google/4.20.0/docs/resources/service_account) | resource |
 
 ## Inputs
 

@@ -15,8 +15,8 @@ provider "google" {
   region = var.region
 }
 
-resource "google_service_account" "service_account_ec2_web" {
-  for_each = var.service_account
+resource "google_service_account" "service_account_app" {
+  for_each = var.service_account.app
 
   account_id   = each.key
   display_name = each.value.display_name
